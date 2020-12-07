@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.DenunciarFragment"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar una denuncia"
+        android:textSize="35dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="En este modulo podras añadir tu denuncia al registro de denuncias ciudadanas."
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rellena los campos de texto con la Informacion. "
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/fragment_denunciar_titulo"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titulo de Denuncia"
+        />
+
+    <EditText
+        android:id="@+id/fragment_denunciar_direccion"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Direccion de Suceso"
+        />
+
+    <Button
+        android:id="@+id/fragment_denunciar_boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Denuncia"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Registraste una denuncia? Revisa el estado Aqui."
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#03A9F4"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+</LinearLayout>

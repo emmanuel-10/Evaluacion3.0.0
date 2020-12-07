@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/item_denuncia_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_item"
+        android:text="T"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        />
+
+    <TextView
+        android:id="@+id/item_denuncia_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo 1"
+        android:layout_toRightOf="@+id/item_denuncia_circle"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginLeft="4dp"
+        />
+
+    <TextView
+        android:id="@+id/item_denuncia_direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion 1"
+        android:layout_toRightOf="@+id/item_denuncia_circle"
+        android:layout_below="@+id/item_denuncia_titulo"
+        android:textSize="23dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="4dp"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_below="@+id/item_denuncia_circle"
+        android:layout_marginTop="8dp"
+        />
+
+
+
+
+
+</RelativeLayout>
