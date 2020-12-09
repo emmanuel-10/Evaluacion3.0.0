@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Evaluacion3</string>
+    <string name="facebook_app_id">425672908814772</string>
+    <string name="fb_login_protocol_scheme">fb425672908814772</string>
     <string name="tab_text_1">Mis Denuncias</string>
     <string name="tab_text_2">Denunciar</string>
     <string name="tab_text_3">Denuncias</string>
